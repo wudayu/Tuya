@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_boot"
+    tools:context=".TuyaActivity" >
+
+    <FrameLayout
+        android:id="@+id/fmt_tuya_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"
+            android:onClick="haha" />
+    </FrameLayout>
+
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="clear"
+	    android:textSize="30dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:onClick="clear" />
+
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="undo"
+	    android:textSize="30dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:onClick="undo" />
+
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="save"
+	    android:textSize="30dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:onClick="save" />
+</RelativeLayout>
